@@ -1,0 +1,50 @@
+/* 1rem = 1em = 16px */
+
+/*******************************/
+/*         ABOVE 545px        */
+/******************************/
+
+@media (min-width: 34em) {
+  /*    NAVEGATION    */
+  .card {
+    grid-template-columns: 35rem 12rem;
+    grid-template-rows: 1fr 2.5fr 0.35fr;
+  }
+  .user {
+    justify-content: space-around;
+    min-width: 60vw;
+  }
+  .user-img {
+    height: 5.2rem;
+    width: 5.2rem;
+    margin: 0;
+  }
+  .name {
+    font-size: 2.6rem;
+  }
+  .read-time {
+    font-size: 1.2rem;
+  }
+  .time-posted {
+    font-size: 1.2rem;
+  }
+  .photo {
+    padding-right: 1.2rem;
+  }
+  .post {
+    margin: auto 0 auto 1.2rem;
+  }
+
+  .title {
+    margin-bottom: 1.2rem;
+  }
+  .post-content {
+    display: block;
+    font-size: 1.2rem;
+    color: #757575;
+  }
+  .social-engagament-list {
+    font-size: 1.2rem;
+    gap: 6.8rem;
+  }
+}

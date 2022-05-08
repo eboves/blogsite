@@ -19,6 +19,12 @@
     />
 
     <link rel="stylesheet" href="/css/blog_home_page.css" />
+    <link rel="stylesheet" href="/css/queries.css" />
+
+    <script
+      src="https://kit.fontawesome.com/73313b4c16.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Document</title>
   </head>
   <body>
@@ -26,10 +32,12 @@
       <header class="header">
         <nav class="nav flex">
           <ul class="nav-ul flex">
-            <li>Profile<img src="" alt="" /></li>
-            <li>Home</li>
-            <li>saved</li>
-            <li>post</li>
+            <li>
+              <i class="icons-nav fa-solid fa-user"></i><img src="" alt="" />
+            </li>
+            <li><i class="icons-nav fa-solid fa-house"></i></li>
+            <li><i class="icons-nav fa-solid fa-bookmark"></i></li>
+            <li><i class="icons-nav fa-solid fa-plus"></i></li>
           </ul>
           <!-- nav-ul -->
         </nav>
@@ -48,7 +56,7 @@
               </div>
               <!-- user-personal-info -->
               <div class="time-posted-container">
-                <p class="time-posted"><span>May 12</span></p>
+                <p class="time-posted"><span>August 1</span></p>
               </div>
               <!-- time-posted -->
             </div>
@@ -57,8 +65,8 @@
               <a href="#" class="btn btn-follow">Follow</a>
             </div>
             <!-- follow -->
-            <div class="post-img">
-              <h1>IMG goes here</h1>
+            <div class="post-img photo">
+              <img class="img-src" src="/imgs/photo1.png" alt="nada" />
             </div>
             <!-- post-img -->
             <div class="post">
@@ -75,10 +83,34 @@
             <!-- post -->
             <div class="social-engagement">
               <ul class="social-engagament-list">
-                <li><a href="#">iconlike</a><span>47</span></li>
-                <li><a href="#">iconcomment</a><span>3</span></li>
-                <li><a href="#">iconshare</a></li>
-                <li><a href="#">iconsave</a></li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-heart"></i></a>
+                    <p>
+                      <span class="icon-like-tracker icon-tracker">4</span>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-comment"></i></a>
+                    <p>
+                      <span class="icon-comment-tracker icon-tracker">1</span>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"
+                      ><i class="icons fa-solid fa-share-nodes"></i
+                    ></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-bookmark"></i></a>
+                  </div>
+                </li>
               </ul>
               <!-- social-engagement-list -->
             </div>
@@ -104,8 +136,8 @@
               <a href="#" class="btn btn-follow">Follow</a>
             </div>
             <!-- follow -->
-            <div class="post-img">
-              <h1>IMG goes here</h1>
+            <div class="post-img photo">
+              <img class="img-src" src="/imgs/photo2.png" alt="nada" />
             </div>
             <!-- post-img -->
             <div class="post">
@@ -122,10 +154,38 @@
             <!-- post -->
             <div class="social-engagement">
               <ul class="social-engagament-list">
-                <li><a href="#">iconlike</a><span>47</span></li>
-                <li><a href="#">iconcomment</a><span>3</span></li>
-                <li><a href="#">iconshare</a></li>
-                <li><a href="#">iconsave</a></li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"
+                      ><i class="icons filled fa-solid fa-heart"></i
+                    ></a>
+                    <p>
+                      <span class="icon-like-tracker icon-tracker">47</span>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-comment"></i></a>
+                    <p>
+                      <span class="icon-comment-tracker icon-tracker">3</span>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"
+                      ><i class="icons fa-solid fa-share-nodes"></i
+                    ></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"
+                      ><i class="icons filled fa-solid fa-bookmark"></i
+                    ></a>
+                  </div>
+                </li>
               </ul>
               <!-- social-engagement-list -->
             </div>
@@ -142,7 +202,7 @@
               </div>
               <!-- user-personal-info -->
               <div class="time-posted-container">
-                <p class="time-posted"><span>May 12</span></p>
+                <p class="time-posted"><span>April 12</span></p>
               </div>
               <!-- time-posted -->
             </div>
@@ -151,8 +211,8 @@
               <a href="#" class="btn btn-follow">Follow</a>
             </div>
             <!-- follow -->
-            <div class="post-img">
-              <h1>IMG goes here</h1>
+            <div class="post-img photo">
+              <img class="img-src" src="/imgs/photo3.png" alt="nada" />
             </div>
             <!-- post-img -->
             <div class="post">
@@ -169,57 +229,36 @@
             <!-- post -->
             <div class="social-engagement">
               <ul class="social-engagament-list">
-                <li><a href="#">iconlike</a><span>47</span></li>
-                <li><a href="#">iconcomment</a><span>3</span></li>
-                <li><a href="#">iconshare</a></li>
-                <li><a href="#">iconsave</a></li>
-              </ul>
-              <!-- social-engagement-list -->
-            </div>
-            <!-- social-engagement -->
-          </div>
-          <!-- card  -->
-          <div class="card">
-            <div class="user">
-              <div class="user-img"></div>
-              <!-- user-img -->
-              <div class="user-personal-info">
-                <p class="name">Elvis Boves</p>
-                <p class="read-time"><span>3 min read</span></p>
-              </div>
-              <!-- user-personal-info -->
-              <div class="time-posted-container">
-                <p class="time-posted"><span>May 12</span></p>
-              </div>
-              <!-- time-posted -->
-            </div>
-            <!-- user -->
-            <div class="follow">
-              <a href="#" class="btn btn-follow">Follow</a>
-            </div>
-            <!-- follow -->
-            <div class="post-img">
-              <h1>IMG goes here</h1>
-            </div>
-            <!-- post-img -->
-            <div class="post">
-              <h1 class="title">
-                Post 1 TITLE asidfoi ioasdf Akasdio Eikaf Doiakdf
-              </h1>
-              <p class="post-content">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Temporibus, velit maiores iusto alias optio iste soluta dicta
-                harum odit ea porro architecto eius voluptate accusamus beatae
-                facilis? Adipisci, molestias aperiam.
-              </p>
-            </div>
-            <!-- post -->
-            <div class="social-engagement">
-              <ul class="social-engagament-list">
-                <li><a href="#">iconlike</a><span>47</span></li>
-                <li><a href="#">iconcomment</a><span>3</span></li>
-                <li><a href="#">iconshare</a></li>
-                <li><a href="#">iconsave</a></li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"
+                      ><i class="icons filled fa-solid fa-heart"></i
+                    ></a>
+                    <p>
+                      <span class="icon-like-tracker icon-tracker">12</span>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-comment"></i></a>
+                    <p>
+                      <span class="icon-comment-tracker icon-tracker">3</span>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"
+                      ><i class="icons fa-solid fa-share-nodes"></i
+                    ></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-bookmark"></i></a>
+                  </div>
+                </li>
               </ul>
               <!-- social-engagement-list -->
             </div>
@@ -236,7 +275,7 @@
               </div>
               <!-- user-personal-info -->
               <div class="time-posted-container">
-                <p class="time-posted"><span>May 12</span></p>
+                <p class="time-posted"><span>March 1</span></p>
               </div>
               <!-- time-posted -->
             </div>
@@ -245,8 +284,8 @@
               <a href="#" class="btn btn-follow">Follow</a>
             </div>
             <!-- follow -->
-            <div class="post-img">
-              <h1>IMG goes here</h1>
+            <div class="post-img photo">
+              <img class="img-src" src="/imgs/photo4.png" alt="nada" />
             </div>
             <!-- post-img -->
             <div class="post">
@@ -263,16 +302,259 @@
             <!-- post -->
             <div class="social-engagement">
               <ul class="social-engagament-list">
-                <li><a href="#">iconlike</a><span>47</span></li>
-                <li><a href="#">iconcomment</a><span>3</span></li>
-                <li><a href="#">iconshare</a></li>
-                <li><a href="#">iconsave</a></li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-heart"></i></a>
+                    <p>
+                      <span class="icon-like-tracker icon-tracker">26</span>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-comment"></i></a>
+                    <p>
+                      <span class="icon-comment-tracker icon-tracker">5</span>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"
+                      ><i class="icons fa-solid fa-share-nodes"></i
+                    ></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-bookmark"></i></a>
+                  </div>
+                </li>
               </ul>
               <!-- social-engagement-list -->
             </div>
             <!-- social-engagement -->
           </div>
-          <!-- card  -->
+          <!-- card -->
+          <div class="card">
+            <div class="user">
+              <div class="user-img"></div>
+              <!-- user-img -->
+              <div class="user-personal-info">
+                <p class="name">Elvis Boves</p>
+                <p class="read-time"><span>3 min read</span></p>
+              </div>
+              <!-- user-personal-info -->
+              <div class="time-posted-container">
+                <p class="time-posted"><span>July 8</span></p>
+              </div>
+              <!-- time-posted -->
+            </div>
+            <!-- user -->
+            <div class="follow">
+              <a href="#" class="btn btn-follow">Follow</a>
+            </div>
+            <!-- follow -->
+            <div class="post-img photo">
+              <img class="img-src" src="/imgs/photo5.png" alt="nada" />
+            </div>
+            <!-- post-img -->
+            <div class="post">
+              <h1 class="title">
+                Post 1 TITLE asidfoi ioasdf Akasdio Eikaf Doiakdf
+              </h1>
+              <p class="post-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus, velit maiores iusto alias optio iste soluta dicta
+                harum odit ea porro architecto eius voluptate accusamus beatae
+                facilis? Adipisci, molestias aperiam.
+              </p>
+            </div>
+            <!-- post -->
+            <div class="social-engagement">
+              <ul class="social-engagament-list">
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-heart"></i></a>
+                    <p>
+                      <span class="icon-like-tracker icon-tracker">7</span>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-comment"></i></a>
+                    <p>
+                      <span class="icon-comment-tracker icon-tracker">1</span>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"
+                      ><i class="icons fa-solid fa-share-nodes"></i
+                    ></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-bookmark"></i></a>
+                  </div>
+                </li>
+              </ul>
+              <!-- social-engagement-list -->
+            </div>
+            <!-- social-engagement -->
+          </div>
+          <!-- card -->
+          <div class="card">
+            <div class="user">
+              <div class="user-img"></div>
+              <!-- user-img -->
+              <div class="user-personal-info">
+                <p class="name">Elvis Boves</p>
+                <p class="read-time"><span>3 min read</span></p>
+              </div>
+              <!-- user-personal-info -->
+              <div class="time-posted-container">
+                <p class="time-posted"><span>January 31</span></p>
+              </div>
+              <!-- time-posted -->
+            </div>
+            <!-- user -->
+            <div class="follow">
+              <a href="#" class="btn btn-follow">Follow</a>
+            </div>
+            <!-- follow -->
+            <div class="post-img photo">
+              <img class="img-src" src="/imgs/photo1.png" alt="nada" />
+            </div>
+            <!-- post-img -->
+            <div class="post">
+              <h1 class="title">
+                Post 1 TITLE asidfoi ioasdf Akasdio Eikaf Doiakdf
+              </h1>
+              <p class="post-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus, velit maiores iusto alias optio iste soluta dicta
+                harum odit ea porro architecto eius voluptate accusamus beatae
+                facilis? Adipisci, molestias aperiam.
+              </p>
+            </div>
+            <!-- post -->
+            <div class="social-engagement">
+              <ul class="social-engagament-list">
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"
+                      ><i class="icons filled fa-solid fa-heart"></i
+                    ></a>
+                    <p>
+                      <span class="icon-like-tracker icon-tracker">100</span>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"
+                      ><i class="icons filled fa-solid fa-comment"></i
+                    ></a>
+                    <p>
+                      <span class="icon-comment-tracker icon-tracker">33</span>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"
+                      ><i class="icons fa-solid fa-share-nodes"></i
+                    ></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-bookmark"></i></a>
+                  </div>
+                </li>
+              </ul>
+              <!-- social-engagement-list -->
+            </div>
+            <!-- social-engagement -->
+          </div>
+          <!-- card -->
+          <div class="card last">
+            <div class="user">
+              <div class="user-img"></div>
+              <!-- user-img -->
+              <div class="user-personal-info">
+                <p class="name">Elvis Boves</p>
+                <p class="read-time"><span>5 min read</span></p>
+              </div>
+              <!-- user-personal-info -->
+              <div class="time-posted-container">
+                <p class="time-posted"><span>Jun 1</span></p>
+              </div>
+              <!-- time-posted -->
+            </div>
+            <!-- user -->
+            <div class="follow">
+              <a href="#" class="btn btn-follow">Follow</a>
+            </div>
+            <!-- follow -->
+            <div class="post-img photo">
+              <img class="img-src" src="/imgs/photo3.png" alt="nada" />
+            </div>
+            <!-- post-img -->
+            <div class="post">
+              <h1 class="title">
+                Post 1 TITLE asidfoi ioasdf Akasdio Eikaf Doiakdf
+              </h1>
+              <p class="post-content">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Temporibus, velit maiores iusto alias optio iste soluta dicta
+                harum odit ea porro architecto eius voluptate accusamus beatae
+                facilis? Adipisci, molestias aperiam.
+              </p>
+            </div>
+            <!-- post -->
+            <div class="social-engagement">
+              <ul class="social-engagament-list">
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"
+                      ><i class="icons filled fa-solid fa-heart"></i
+                    ></a>
+                    <p>
+                      <span class="icon-like-tracker icon-tracker">4</span>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-comment"></i></a>
+                    <p>
+                      <span class="icon-comment-tracker icon-tracker">0</span>
+                    </p>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"
+                      ><i class="icons fa-solid fa-share-nodes"></i
+                    ></a>
+                  </div>
+                </li>
+                <li>
+                  <div class="icons-plus">
+                    <a href="#"><i class="icons fa-regular fa-bookmark"></i></a>
+                  </div>
+                </li>
+              </ul>
+              <!-- social-engagement-list -->
+            </div>
+            <!-- social-engagement -->
+          </div>
+          <!-- card -->
         </section>
         <!-- section-card-container -->
       </main>
