@@ -21,6 +21,7 @@
   0.75px
 
 --- 02 COLORS
+rgb(155, 116, 116)
 
 - Primary:
 - Tints:
