@@ -53,6 +53,19 @@ body {
   align-items: center;
 }
 
+.titles {
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 600;
+  font-size: 1.6rem;
+  color: #555;
+}
+
+.other-blogs-titles {
+  margin-bottom: 1.2rem;
+  padding-top: 0.8rem;
+  padding-left: 0.4rem;
+  font-size: 1.4rem;
+}
 /*************************************/
 /*            NAVEGATION             */
 /*************************************/
@@ -102,9 +115,6 @@ body {
 
 .bio-title {
   margin-bottom: 1.6rem;
-  font-family: "IBM Plex Mono", monospace;
-  font-weight: 600;
-  font-size: 1.6rem;
 }
 
 .bio-content {
@@ -116,8 +126,6 @@ body {
 }
 
 /* Social Media */
-.social-media {
-}
 
 .social-media-list {
   list-style-type: none;
@@ -131,7 +139,6 @@ body {
 .other-blogs-title {
   padding-left: 1.2rem;
   margin-bottom: 2.4rem;
-  color: #555;
 }
 
 .box-shadow {
@@ -149,12 +156,6 @@ body {
   gap: 2.4rem;
 }
 
-.other-blogs-titles {
-  margin-bottom: 1.2rem;
-  padding-left: 0.4rem;
-  font-size: 1.4rem;
-}
-
 .blog-content {
   padding-left: 1.2rem;
   margin-bottom: 0.8rem;
@@ -165,7 +166,7 @@ body {
 }
 
 .blog-date-created {
-  margin-bottom: 1.6rem;
+  margin-bottom: 0.8rem;
   font-size: 1.2rem;
   padding-left: 1.2rem;
   font-family: "IBM Plex Mono", monospace;
