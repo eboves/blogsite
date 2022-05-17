@@ -83,6 +83,20 @@ body {
   font-size: 2.4rem;
 }
 
+.btn-nav {
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+}
+.phone-icon-nav[name="close-outline"] {
+  display: none;
+}
+.phone-icon-nav {
+  font-size: 2rem;
+  color: #4e4e4e;
+}
+
 /*************************************/
 /*         Personal Section          */
 /*************************************/
@@ -155,6 +169,7 @@ body {
   gap: 2.4rem;
 }
 .other-blog-content {
+  padding-right: 1.2rem;
   padding-left: 1.2rem;
   margin-bottom: 0.8rem;
   font-size: 1.2rem;
@@ -196,8 +211,8 @@ body {
 }
 .blog-img {
   margin-bottom: 0.8rem;
-  height: 300px;
-  width: 500px;
+  height: 30rem;
+  width: 50rem;
   border: none;
   border-radius: 5px;
 }
@@ -229,11 +244,10 @@ body {
 /*************************************/
 .footer {
   align-items: end;
-  z-index: 9999;
 }
 .corporation {
+  padding: 1.6rem 0;
   font-size: 1.4rem;
   font-weight: 500;
   color: #bababa;
-  margin-bottom: 1.6rem;
 }
