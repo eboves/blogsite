@@ -1,7 +1,27 @@
 /* 1rem = 1em = 16px */
+/**************************************************************/
+/*                                                           */
+/*                BLOG HOME PAGE MEDIA QUERIES               */
+/*                                                           */
+/*************************************************************/
+
+/*******************************/
+/*  ABOVE 1232 px Small laptop  */
+/******************************/
+@media (max-width: 77em) {
+  .main-home {
+    margin-top: 8rem;
+  }
+
+  body {
+    background-color: red;
+  }
+}
 
 /**************************************************************/
+/*                                                           */
 /*                  BLOG POST MEDIA QUERIES                  */
+/*                                                           */
 /*************************************************************/
 
 /*******************************/
@@ -246,79 +266,3 @@
     width: 30rem;
   }
 }
-
-/**************************************************************/
-/*                BLOG HOME PAGE MEDIA QUERIES               */
-/*************************************************************/
-/*******************************/
-/*         ABOVE 545px        */
-/******************************/
-
-/* @media (min-width: 34em) {
-
-  .card {
-    grid-template-columns: 35rem 12rem;
-    grid-template-rows: 1fr 2.5fr 0.35fr;
-  }
-  .user {
-    justify-content: start;
-    min-width: 0;
-  }
-  .user-img {
-    height: 5.2rem;
-    width: 5.2rem;
-    margin: 0;
-  }
-  .name {
-    font-size: 2.6rem;
-  }
-  .read-time {
-    font-size: 1.2rem;
-  }
-  .time-posted {
-    font-size: 1.2rem;
-  }
-  .photo {
-    padding-right: 1.2rem;
-  }
-  .post {
-    margin: auto 0 auto 1.2rem;
-  }
-
-  .title {
-    margin-bottom: 1.2rem;
-  }
-  .post-content {
-    display: block;
-    font-size: 1.2rem;
-    color: #757575;
-  }
-  .social-engagament-list {
-    font-size: 1.2rem;
-    gap: 6.8rem;
-  }
-} */
-
-/*******************************/
-/*         ABOVE 736px        */
-/******************************/
-/* @media (min-width: 46em) {
-  .grid {
-    grid-template-columns: 10% 90%;
-    grid-template-rows: 1fr;
-  }
-  .header {
-    grid-area: 1/1/2/2;
-    position: relative;
-    left: 0;
-    bottom: 0;
-    right: auto;
-  }
-  .section-card-container {
-    grid-area: 1/2/2/3;
-  }
-
-  .nav-ul {
-    flex-direction: column;
-  }
-} */
