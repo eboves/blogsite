@@ -1,23 +1,3 @@
-/* 1rem = 1em = 16px */
-/**************************************************************/
-/*                                                           */
-/*                BLOG HOME PAGE MEDIA QUERIES               */
-/*                                                           */
-/*************************************************************/
-
-/*******************************/
-/*  ABOVE 1232 px Small laptop  */
-/******************************/
-@media (max-width: 77em) {
-  .main-home {
-    margin-top: 8rem;
-  }
-
-  body {
-    background-color: red;
-  }
-}
-
 /**************************************************************/
 /*                                                           */
 /*                  BLOG POST MEDIA QUERIES                  */
@@ -120,13 +100,22 @@
   }
 
   /*        NAVEGATION FOR TABLET AND PHONE SECTION       */
-  /* .nav-mob-container {
-    background-color: red;
-  } */
+  .btn-nav {
+    opacity: 1;
+  }
+  .nav-icons {
+    font-size: 4.4rem;
+    color: #ffffff;
+  }
+
+  .fa-xmark {
+    font-size: 3rem;
+    color: #ffffff;
+  }
   .nav {
     width: 100%;
     height: 100vh;
-    background-color: red;
+    background-color: #590085e5;
     position: absolute;
     top: 0;
     left: 0;
