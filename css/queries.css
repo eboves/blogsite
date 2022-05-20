@@ -106,8 +106,19 @@
   .nav-icons {
     font-size: 4.4rem;
     color: #ffffff;
+    transition: all 0.2s ease-in;
+    cursor: pointer;
+  }
+  .nav-icons:link,
+  .nav-icons:visited {
+    color: #ffffff;
   }
 
+  .nav-icons:hover,
+  .nav-icons:active {
+    font-size: 6.2rem;
+    color: #ffffff;
+  }
   .fa-xmark {
     font-size: 3rem;
     color: #ffffff;

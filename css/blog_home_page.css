@@ -16,9 +16,24 @@
 /*************************************/
 .social-media-list-main {
   flex-direction: column;
-  font-size: 3rem;
+
   gap: 5.2rem;
   list-style-type: none;
+}
+
+.social-media-icons {
+  font-size: 3rem;
+  color: #590085e5;
+}
+.social-media-icons:link,
+.social-media-icons:visited {
+  color: #590085e5;
+}
+
+.social-media-icons:hover,
+.social-media-icons:active {
+  font-size: 3.6rem;
+  color: #8a0cc9;
 }
 
 .card-container-home {
@@ -46,6 +61,7 @@
   display: flex;
   justify-content: center;
 }
+
 .card-container {
   height: 52rem;
   align-self: center;
@@ -96,8 +112,9 @@
   margin-bottom: 1.8rem;
 }
 .title {
-  margin-left: 2.4rem;
-  font-size: 2.4rem;
+  margin-left: 2rem;
+  font-size: 1.6rem;
+  font-weight: 600;
   color: #4e4e4e;
 }
 .date-published {
@@ -136,6 +153,16 @@
   cursor: pointer;
 }
 
+.clap-icon {
+  display: flex;
+}
+
+.clap-count {
+  margin-left: 1.2rem;
+  font-size: 1.6rem;
+  color: #bababa;
+}
+
 /*************************************/
 /*         Read-container          */
 /*************************************/
@@ -146,10 +173,20 @@
 .btn-read {
   height: 3.6rem;
   width: 10.2rem;
+  font-weight: 500;
+  color: #fdfaff;
   cursor: pointer;
   border-radius: 0.5rem;
   border: none;
-  background-color: antiquewhite;
+  background-color: #590085e5;
   margin: 1rem auto;
   text-transform: capitalize;
+  transition: all 0.2s ease-in;
+}
+
+.btn-read:hover {
+  font-weight: 600;
+  background-color: #fdfaff;
+  border: 1px solid #590085e5;
+  color: #590085e5;
 }

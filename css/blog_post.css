@@ -73,6 +73,7 @@ body {
 .IBM {
   font-family: "IBM Plex Mono", monospace;
 }
+
 /*************************************/
 /*            NAVEGATION             */
 /*************************************/
@@ -83,7 +84,20 @@ body {
 }
 
 .nav-icons {
+  font-size: 2.6rem;
+  transition: all 0.5s ease-in;
+  color: #590085;
+}
+
+.nav-icons:link,
+.nav-icons:visited {
+  color: #590085;
+}
+
+.nav-icons:hover,
+.nav-icons:active {
   font-size: 3.2rem;
+  color: #8a0cc9;
 }
 
 .btn-nav {
@@ -156,8 +170,24 @@ body {
 .social-media-list {
   list-style-type: none;
   gap: 3.2rem;
-  font-size: 2rem;
 }
+
+.btn-social-media {
+  font-size: 2.2rem;
+  transition: all 0.2s ease-in;
+  color: #590085;
+}
+.btn-social-media:link,
+.btn-social-media:visited {
+  color: #590085;
+}
+
+.btn-social-media:hover,
+.btn-social-media:active {
+  font-size: 3rem;
+  color: #8a0cc9;
+}
+
 /*************************************/
 /*          Other Blog Section       */
 /*************************************/
@@ -180,6 +210,7 @@ body {
   gap: 2.4rem;
 }
 .other-blog-content {
+  height: 10rem;
   padding-right: 1.2rem;
   padding-left: 1.2rem;
   margin-bottom: 0.8rem;

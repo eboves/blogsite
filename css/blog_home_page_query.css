@@ -30,17 +30,14 @@
     align-items: flex-start;
     margin-top: 12.8rem;
   }
-  .btn-nav {
-    opacity: 1;
-  }
 }
 
 /*******************************/
 /*  ABOVE 480 px Small laptop  */
 /******************************/
 @media (max-width: 30em) {
-  body {
-    background-color: aqua;
+  .btn-nav {
+    opacity: 1;
   }
   .main-home {
     justify-content: center;
@@ -78,6 +75,25 @@
   }
   .nav-open .phone-icon-nav[name="menu-outline"] {
     display: none;
+  }
+  .social-media-icons {
+    font-size: 4.4rem;
+    color: #ffffff;
+    transition: all 0.2s eas;
+  }
+  .social-media-icons:link,
+  .social-media-icons:visited {
+    color: #fefbff;
+  }
+
+  .social-media-icons:hover,
+  .social-media-icons:active {
+    font-size: 5.2rem;
+    color: #ffffff;
+  }
+  .fa-xmark {
+    font-size: 3rem;
+    color: #ffffff;
   }
 }
 
