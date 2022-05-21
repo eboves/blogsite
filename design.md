@@ -2,21 +2,24 @@
 /_ TYPOGRAPHY SYSTEM _/
 /**\*\*\*\***\*\***\*\*\*\***\***\*\*\*\***\*\***\*\*\*\***/
 
+Default: font-family: "Inter", sans-serif;
+Second : font-family: "IBM Plex Mono", monospace;
+
 --> Font sizes (px)
 10 / 12 / 14 / 16 / 18 / 20 / 24 / 30
 / 36 / 44 / 52 / 62 / 74 / 86 / 98
 
 --> Font weights
--> Default:
--> Medium:
--> Bold:
+-> Default: 400
+-> Medium: 500
+-> Bold: 700
 
 --> Line heights
 -> Default:
--> Small:
+-> Small: 1
 -> Medium:
 -> Paragraph default: 1.6
--> Large:
+-> Large: 2.4
 
 --> Letter spacing
 -> -0.5px
@@ -27,13 +30,13 @@
 /**\*\*\*\***\*\***\*\*\*\***\***\*\*\*\***\*\***\*\*\*\***/
 
 --> 0
--> #
+-> #ffffff
 --> 1
--> #
+-> #590085
 --> 2
--> #
+-> #8a0cc9
 --> 3
--> #
+-> #4e4e4e
 
 /**\*\*\*\***\*\***\*\*\*\***\***\*\*\*\***\*\***\*\*\*\***/
 /_ SHADOWS _/
@@ -45,8 +48,10 @@
 /_ BORDER-RADIUS _/
 /**\*\*\*\***\*\***\*\*\*\***\***\*\*\*\***\*\***\*\*\*\***/
 
-Default: 9px
-Medium: 11px
+Default: 5px
+small: 0.5rem
+Medium: 1rem
+Large: 2rem
 
 /**\*\*\*\***\*\***\*\*\*\***\***\*\*\*\***\*\***\*\*\*\***/
 /_ WHITESPACE _/

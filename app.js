@@ -7,6 +7,7 @@
 const btn_nav_el = document.querySelector(".btn-nav");
 const header_el = document.querySelector(".header");
 
+// open and close the nav bar on smaller divices
 btn_nav_el.addEventListener("click", function () {
   header_el.classList.toggle("nav-open");
 });
@@ -19,9 +20,8 @@ btn_nav_el.addEventListener("click", function () {
 
 // Read me
 const post1 = document.querySelector(".post1");
-const post2 = document.querySelector(".post2");
-const post3 = document.querySelector(".post3");
 
+// open the first blog in a new page
 post1.addEventListener("click", function () {
   window.open("blog_post.html");
 });
