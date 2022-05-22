@@ -238,6 +238,17 @@ figure {
   font-weight: 600;
   color: #590085;
 }
+.quote-container {
+  gap: 1.2rem;
+}
+.quote-content {
+  font-size: 1.8rem;
+  margin-left: 3.2rem;
+}
+.quote-caption {
+  font-size: 1.6rem;
+  margin-left: 3.2rem;
+}
 
 /*************************************/
 /*          Footer Container         */
