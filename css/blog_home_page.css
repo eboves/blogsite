@@ -1,4 +1,6 @@
 @import url("/css/blog_post.css");
+@import url("/css/general.css");
+@import url("/css/card.css");
 
 .container-home {
   height: 100vh;
@@ -56,27 +58,6 @@
 /*************************************/
 /*          CARD CONTAINER           */
 /*************************************/
-.card {
-  height: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.card:hover {
-  transform: scale(1.025);
-  z-index: 2;
-}
-
-.card-container {
-  height: 52rem;
-  align-self: center;
-  display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: repeat(8, 1fr);
-  box-shadow: 0 7px 10px 0 rgb(0 0 0 / 9%);
-  border-bottom-left-radius: 1rem;
-  border-bottom-right-radius: 1rem;
-}
 
 /*************************************/
 /*            img-container          */
